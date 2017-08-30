@@ -64,7 +64,7 @@ static const unsigned char PROGMEM logo16_glcd_bmp[] =
 Rotary r = Rotary(2,3); // sets the pins the rotary encoder uses.  Must be interrupt pins.
 //LiquidCrystal lcd(12, 13, 7, 6, 5, 4); // I used an odd pin combination because I need pin 2 and 3 for the interrupts.
 
-int_fast32_t rx=20000000; // Starting frequency of VFO
+int_fast32_t rx=7000000; // Starting frequency of VFO
 int_fast32_t rx2=1; // variable to hold the updated frequency
 //int_fast32_t rxif=28200000; // IF freq, they be summ with vfo freq
 int_fast32_t rxif=0; // IF freq, they be summ with vfo freq
